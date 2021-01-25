@@ -5,7 +5,10 @@ This details the Kubuntu 20.04 install for a KingJim PortaBook XMC10
 - Flash the Kubuntu ISO onto a USB using some like balenaEtcher
 - Place the resultant USB into the Portabook USB slot
 - Turn on the Portabook and press F2 to launch boot options
-- Choose to boot from the USB
+- Choose to enter System BIOS Setup
+- Turn of Secure Boot and Save and exit (required to get Wi-Fi working)
+- On restart again press F2 to launch boot options
+- This time choose to boot from the USB
 - Choose the option to run the live preview
 - The Live preview will launch and everything (WiFi, USB, Sound, Bluetooth etc) should work fine
 - When ready choose to install to the PortaBook by double clicking the option on the Kubuntu desktop
